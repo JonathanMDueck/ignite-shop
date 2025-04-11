@@ -29,10 +29,11 @@ export const Product = styled("a", {
     left: "0.25rem",
     right: "0.25rem",
     padding: "2rem",
+
     borderRadius: 6,
 
     display: "flex",
-    aligntItems: "center",
+    alignItems: "center",
     justifyContent: "space-between",
 
     backgroundColor: "rgba(0, 0, 0, 0.6)",
@@ -43,6 +44,7 @@ export const Product = styled("a", {
 
     strong: {
       fontSize: "$lg",
+      color: "$gray100",
     },
 
     span: {
